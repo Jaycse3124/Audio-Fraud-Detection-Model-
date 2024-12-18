@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fraud Detection - Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Fraud Detection Results</h1>
+    <p><strong>Transcribed Text:</strong> {{ text }}</p>
+    <p><strong>Fraud Detection Score:</strong> {{ score }}%</p>
+    <br>
+    <a href="/">Upload Another Audio File</a>
+</body>
+</html>

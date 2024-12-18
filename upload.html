@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fraud Detection - Upload Audio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Audio Fraud Detection System</h1>
+    <form action="/process" method="post" enctype="multipart/form-data">
+        <label for="audio_file">Upload an audio file (WAV format):</label><br><br>
+        <input type="file" name="audio_file" accept=".wav" required>
+        <br><br>
+        <button type="submit">Analyze Audio</button>
+    </form>
+</body>
+</html>

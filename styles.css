@@ -1,0 +1,86 @@
+/* General Body Styling for Dark Mode */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #bb86fc;
+    font-size: 2.5em;
+}
+
+/* Form Styling */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+label {
+    font-size: 1.2em;
+    color: #e0e0e0;
+}
+
+input[type="file"] {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #333333;
+    border: 1px solid #444444;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #bb86fc;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #985eff;
+    color: #fff;
+}
+
+/* Results Page Styling */
+p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin: 20px;
+    text-align: center;
+}
+
+strong {
+    color: #bb86fc;
+}
+
+/* Link Styling */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #03dac5;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #018786;
+}
